@@ -1,0 +1,58 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Sparkle top-right -->
+    <path
+        android:pathData="M76,30 L78,36 L84,38 L78,40 L76,46 L74,40 L68,38 L74,36 Z"
+        android:fillColor="#FFD269" />
+
+    <!-- Sparkle bottom-left -->
+    <path
+        android:pathData="M32,68 L33.5,72 L38,73.5 L33.5,75 L32,79 L30.5,75 L26,73.5 L30.5,72 Z"
+        android:fillColor="#FF4D8D" />
+
+    <!-- Stylized RizzX main letterform / wingman crest -->
+    <!-- Left diagonal stroke of X with electric violet gradient -->
+    <path
+        android:pathData="M34,32 L46,32 L74,76 L62,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="34"
+                android:startY="32"
+                android:endX="74"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#A78BFA" />
+                <item android:offset="0.5" android:color="#8B5CF6" />
+                <item android:offset="1.0" android:color="#6D28D9" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right diagonal stroke of X with warm pink gradient and lightning cut -->
+    <path
+        android:pathData="M74,32 L62,32 L34,76 L46,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="74"
+                android:startY="32"
+                android:endX="34"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF75A0" />
+                <item android:offset="0.6" android:color="#FF4D8D" />
+                <item android:offset="1.0" android:color="#D91B5C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center core intersection lightning accent -->
+    <path
+        android:pathData="M54,42 L57,51 L53,53 L56,62 L50,54 L53,52 Z"
+        android:fillColor="#FFFFFF" />
+
+</vector>

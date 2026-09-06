@@ -1,0 +1,6 @@
+{
+  "name": "RizzX",
+  "description": "Never run out of things to say. AI-powered social conversation wingman and cheat code.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
